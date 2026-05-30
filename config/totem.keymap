@@ -17,6 +17,12 @@
 };
 
 / {
+    behaviors {
+        #include "behaviors.dtsi"
+    };
+};
+
+/ {
      combos {
             compatible = "zmk,combos";
             combo_esc {
