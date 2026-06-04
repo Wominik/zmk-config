@@ -6,6 +6,6 @@
 #define NAV_SPACE &lt NAV SPACE 
 #define SYM_TAB &lt SYM TAB // TAB should be replaced from here in favour of combo
 
-#define --- &none
+#define XXX &none
 #define ___ &trans
 
