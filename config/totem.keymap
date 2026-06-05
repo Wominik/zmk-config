@@ -10,7 +10,8 @@
 #define NAV 1
 #define NUM 2
 #define SYM 3
-#define FUN 4
+#define BRAC 4
+#define FUN 5
 
 &mt {
   quick-tap-ms = <100>;
@@ -34,8 +35,9 @@
                 compatible = "zmk,keymap";
                 #include "layers/0_base.dtsi"
                 #include "layers/1_nav.dtsi"
-                // #include "layers/2_num.dtsi"
+                #include "layers/2_num.dtsi"
                 // #include "layers/3_sym.dtsi"
-                // #include "layers/4_fun.dtsi"
+                // #include "layers/4_brac.dtsi"
+                // #include "layers/5_fun.dtsi"
         };
 };
