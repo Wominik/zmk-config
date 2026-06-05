@@ -36,8 +36,8 @@
                 #include "layers/0_base.dtsi"
                 #include "layers/1_nav.dtsi"
                 #include "layers/2_num.dtsi"
-                #include "layers/3_brac.dtsi"
-                // #include "layers/4_brac.dtsi"
+                #include "layers/3_sym.dtsi"
+                #include "layers/4_brac.dtsi"
                 // #include "layers/5_fun.dtsi"
         };
 };
