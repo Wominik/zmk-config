@@ -58,22 +58,22 @@ combos {
     combo_copy {
         timeout-ms = <50>;
         key-positions = <LB2 LB1>;
-        bindings = <&kp LC(C)>;
+        bindings = <&kp LG(C)>;
     };
     combo_paste {
         timeout-ms = <50>;
         key-positions = <LB3 LB2>;
-        bindings = <&kp LC(V)>;
+        bindings = <&kp LG(V)>;
     };
     combo_cut {
         timeout-ms = <50>;
         key-positions = <LB3 LB1>;
-        bindings = <&kp LC(X)>;
+        bindings = <&kp LG(X)>;
     };
     combo_undo {
         timeout-ms = <50>;
         key-positions = <LB4 LB3>;
-        bindings = <&kp LC(X)>;
+        bindings = <&kp LG(X)>;
     };
     combo_studio {
         timeout-ms = <50>;
