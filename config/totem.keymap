@@ -13,11 +13,11 @@
 #define BRAC 4
 #define FUN 5
 
-&mt {
-  quick-tap-ms = <100>;
-  flavor = "tap-preferred";
-  tapping-term-ms = <170>;
-};
+// &mt {
+//   quick-tap-ms = <100>;
+//   flavor = "tap-preferred";
+//   tapping-term-ms = <170>;
+// };
 
 / {
     behaviors {

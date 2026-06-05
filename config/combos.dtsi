@@ -38,12 +38,12 @@ combos {
     combo_left_screen {
         timeout-ms = <50>;
         key-positions = <RB1 RB2>;
-        bindings = <&kp LA(LEFT)>;
+        bindings = <&kp LC(LEFT)>;
     };
     combo_right_screen {
         timeout-ms = <50>;
         key-positions = <RB2 RB3>;
-        bindings = <&kp LA(LEFT)>;
+        bindings = <&kp LC(LEFT)>;
     };
     combo_go_back {
         timeout-ms = <50>;
@@ -62,12 +62,12 @@ combos {
     };
     combo_paste {
         timeout-ms = <50>;
-        key-positions = <LB3 LB2>;
+        key-positions = <LB3 LB1>;
         bindings = <&kp LG(V)>;
     };
     combo_cut {
         timeout-ms = <50>;
-        key-positions = <LB3 LB1>;
+        key-positions = <LB3 LB2>;
         bindings = <&kp LG(X)>;
     };
     combo_undo {
