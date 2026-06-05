@@ -39,35 +39,40 @@ combos {
         timeout-ms = <50>;
         key-positions = <RB1 RB2>;
         bindings = <&kp LA(LEFT)>;
-    }
+    };
     combo_right_screen {
         timeout-ms = <50>;
         key-positions = <RB2 RB3>;
         bindings = <&kp LA(LEFT)>;
-    }
+    };
     combo_go_back {
         timeout-ms = <50>;
         key-positions = <RT1 RT2>;
         bindings = <&kp LS(LS(LBKT))>;
-    }
+    };
     combo_go_forward {
         timeout-ms = <50>;
         key-positions = <RT2 RT3>;
         bindings = <&kp LS(LS(RBKT))>;
-    }
+    };
     combo_copy {
         timeout-ms = <50>;
         key-positions = <LB2 LB1>;
         bindings = <&kp LC(C)>;
-    }
+    };
     combo_paste {
         timeout-ms = <50>;
         key-positions = <LB3 LB2>;
         bindings = <&kp LC(V)>;
-    }
+    };
     combo_cut {
         timeout-ms = <50>;
         key-positions = <LB3 LB1>;
         bindings = <&kp LC(X)>;
-    }
+    };
+    combo_studio {
+        timeout-ms = <50>;
+        key-positions = <LT0 RT0>;
+        bindings = <&studio_unlock>;
+    };
 };
