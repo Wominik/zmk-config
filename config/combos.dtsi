@@ -70,6 +70,11 @@ combos {
         key-positions = <LB3 LB1>;
         bindings = <&kp LC(X)>;
     };
+    combo_undo {
+        timeout-ms = <50>;
+        key-positions = <LB4 LB3>;
+        bindings = <&kp LC(X)>;
+    };
     combo_studio {
         timeout-ms = <50>;
         key-positions = <LT0 RT0>;
