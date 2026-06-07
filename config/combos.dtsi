@@ -48,12 +48,12 @@ combos {
     combo_go_back {
         timeout-ms = <50>;
         key-positions = <RT1 RT2>;
-        bindings = <&kp LS(LS(LBKT))>;
+        bindings = <&kp LG(LS(LBKT))>;
     };
     combo_go_forward {
         timeout-ms = <50>;
         key-positions = <RT2 RT3>;
-        bindings = <&kp LS(LS(RBKT))>;
+        bindings = <&kp LG(LS(RBKT))>;
     };
     combo_copy {
         timeout-ms = <50>;
